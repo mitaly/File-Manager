@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mit.readingsdcard.PlayingVideo">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0b0a0a">
+
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/videoView"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video Name"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorOfTextVideo"
+            android:id="@+id/textViewVideoName"
+            android:layout_gravity="center_horizontal|top" />
+
+    </FrameLayout>
+
+</RelativeLayout>
